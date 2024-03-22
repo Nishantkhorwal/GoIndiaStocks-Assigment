@@ -10,6 +10,7 @@ import { CiHeart } from "react-icons/ci";
 import { IoEyeSharp } from "react-icons/io5";
 import { LiaComments } from "react-icons/lia";
 import { IoShareSocial } from "react-icons/io5";
+import Image from 'next/image';
 
 
 const page = () => {
@@ -75,7 +76,7 @@ const page = () => {
               
            <div href="#" className={` px-4 flex flex-col items-center bg-white border border-gray-200 rounded-3xl shadow w-[385px] ms-2 md:w-[750px] md:ms-16 md:${open ? 'translate-x-64 md:translate-x-64': '-translate-x-0 p-0 m-0 md:-translate-x-0' } duration-500 mb-4`}>
             <div className='flex flex-row justify-start w-full'>
-           <img className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
+           <Image className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
            <p className='pt-4 w-1/4 text-sm md:text-2xl md:pt-6'>Lorem Ipsum</p>
            <div className="ms-3 md:ms-0 w-16 h-6 mt-4  bg-blue-100 text-center md:mt-6 pt-1 text-blue-800 text-xs rounded-3xl dark:bg-blue-900 dark:text-blue-300"><p className=''>Sector2</p></div>
            <p className='ps-24 text-xs pt-3 md:ms-40 md:text-xl text-blue-600'>2 mins</p>
@@ -93,7 +94,7 @@ const page = () => {
           </div>
           <div href="#" className={` px-4 flex flex-col items-center bg-white border border-gray-200 rounded-3xl shadow w-[385px] ms-2 md:w-[750px] md:ms-16 md:${open ? 'translate-x-64 md:translate-x-64': '-translate-x-0 p-0 m-0 md:-translate-x-0' } duration-500 mb-4`}>
             <div className='flex flex-row justify-start w-full'>
-           <img className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
+           <Image className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
            <p className='pt-4 w-1/4 text-sm md:text-2xl md:pt-6'>Lorem Ipsum</p>
            <div className="ms-3 md:ms-0 w-16 h-6 mt-4  bg-blue-100 text-center md:mt-6 pt-1 text-blue-800 text-xs rounded-3xl dark:bg-blue-900 dark:text-blue-300"><p className=''>Sector2</p></div>
            <p className='ps-24 text-xs pt-3 md:ms-40 md:text-xl text-blue-600'>2 mins</p>
@@ -111,7 +112,7 @@ const page = () => {
           </div>
           <div href="#" className={` px-4 flex flex-col items-center bg-white border border-gray-200 rounded-3xl shadow w-[385px] ms-2 md:w-[750px] md:ms-16 md:${open ? 'translate-x-64 md:translate-x-64': '-translate-x-0 p-0 m-0 md:-translate-x-0' } duration-500 mb-4`}>
             <div className='flex flex-row justify-start w-full'>
-           <img className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
+           <Image className="object-cover rounded-xl w-14 md:w-28 " src='profimg.jpeg' alt=""/>
            <p className='pt-4 w-1/4 text-sm md:text-2xl md:pt-6'>Lorem Ipsum</p>
            <div className="ms-3 md:ms-0 w-16 h-6 mt-4  bg-blue-100 text-center md:mt-6 pt-1 text-blue-800 text-xs rounded-3xl dark:bg-blue-900 dark:text-blue-300"><p className=''>Sector2</p></div>
            <p className='ps-24 text-xs pt-3 md:ms-40 md:text-xl text-blue-600'>2 mins</p>
@@ -134,21 +135,21 @@ const page = () => {
               
 
 <div className={` md:${open ? 'translate-x-64 md:translate-x-64 md:ms-20': '-translate-x-0 p-0 m-0 md:-translate-x-0 md:ms-[80px]' } duration-500 w-[201px] h-[154px] md:w-[300px] md:h-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3 `}>
-        <img className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
+        <Image className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
     <div className="p-5">
             <h5 className="mb-1 text-xs md:text-sm font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology</h5>
         <p className="mb-1 font-normal text-gray-700 dark:text-gray-400 md:text-xs text-[10px]">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
     </div>
 </div>
 <div className={` md:${open ? 'translate-x-64 md:translate-x-64 md:ms-20': '-translate-x-0 p-0 m-0 md:-translate-x-0 md:ms-[300px]' } duration-500 w-[201px] h-[154px] md:w-[300px] md:h-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-3`}>
-        <img className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
+        <Image className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
     <div className="p-5">
             <h5 className="mb-1 md:text-sm text-xs font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology</h5>
         <p className="mb-1 font-normal text-gray-700 dark:text-gray-400 md:text-xs text-[10px]">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
     </div>
 </div>
 <div className={` md:${open ? 'translate-x-64 md:translate-x-64 md:ms-20': '-translate-x-0 p-0 m-0 md:-translate-x-0 md:ms-[80px]' } duration-500 w-[201px] h-[154px] md:w-[300px] md:h-auto  bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 `}>
-        <img className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
+        <Image className="rounded-t-lg w-[200px] h-[50px] md:w-[300px] md:h-[100px] " src="cardimage.jpg" alt="" />
     <div className="p-5">
             <h5 className="mb-1 md:text-sm text-xs font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology</h5>
         <p className="mb-1 font-normal text-gray-700 dark:text-gray-400 md:text-xs text-[10px]">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
